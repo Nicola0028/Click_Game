@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker Master</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" 
+    rel="stylesheet">
+  
+  <!-- Esempio: Script per Google AdSense (sostituisci con il tuo ID) -->
+  <!-- Ricorda: devi avere un account AdSense approvato per usare questi script. -->
+  <script async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-XXXXXXXXXXXXXXXX", // Sostituisci con il tuo ID
+      enable_page_level_ads: true
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Clicker Master</h1>
+    <p>Migliora il tuo punteggio e scala la classifica!</p>
+  </header>
+  
+  <main>
+    <section id="game">
+      <p>Premi il pulsante per guadagnare punti e avanzare di livello!</p>
+      <button id="clickButton">Clicca qui!</button>
+      <p>Punti: <span id="score">0</span></p>
+      <p>Livello: <span id="level">1</span></p>
+      <p>Obiettivo per il prossimo livello: <span id="nextLevel">10</span> punti</p>
+    </section>
+
+    <!-- Sezione Annunci (puoi inserirla dove preferisci) -->
+    <section id="ads">
+      <h2>Spazio Pubblicitario</h2>
+      <!-- Esempio di un blocco AdSense responsive -->
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"  <!-- Sostituisci con il tuo ID -->
+        data-ad-slot="1234567890"                <!-- Sostituisci con il tuo ad slot -->
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+      </ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </section>
+    
+    <section id="leaderboard">
+      <h2>Classifica</h2>
+      <ol id="scoreList"></ol>
+      <button id="saveScoreButton">Salva punteggio</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Clicker Master. Tutti i diritti riservati.</p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
